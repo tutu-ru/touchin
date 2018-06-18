@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.touchin.roboswag.core.util;
+package ru.touchin.roboswag.core.android.support.v7.util;
 
 /**
  * Wraps a {@link ListUpdateCallback} callback and batches operations that can be merged.

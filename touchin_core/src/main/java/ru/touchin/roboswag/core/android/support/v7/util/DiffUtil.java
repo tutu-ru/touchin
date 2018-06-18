@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.touchin.roboswag.core.util;
+package ru.touchin.roboswag.core.android.support.v7.util;
 
 import android.support.annotation.Nullable;
 

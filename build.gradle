@@ -2,7 +2,6 @@
 
 buildscript {
     ext.kotlin_version = '1.2.41'
-    ext.kotlin_version = '1.2.50'
     ext.minSdk = 17
     ext.compileSdk = 26
     ext.supportLibraryVersion = '26.0.2'
