@@ -1,1 +1,1 @@
-include ':app', ':touchin_core'
+include ':app', ':touchin_core', ':touchin_components', ':touchin_templates'
