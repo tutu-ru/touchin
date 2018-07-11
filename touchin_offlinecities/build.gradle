@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+android {
+    compileSdkVersion compileSdk
+//    buildToolsVersion supportLibraryVersion
+
+    defaultConfig {
+        minSdkVersion 16
+        //noinspection OldTargetApi
+        targetSdkVersion compileSdk
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    compile "com.android.support:support-annotations:$supportLibraryVersion"
+    compile "io.reactivex:rxandroid:$rxAndroidVersion"
+}

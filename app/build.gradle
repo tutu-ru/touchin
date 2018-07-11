@@ -39,4 +39,5 @@ dependencies {
     implementation project(':touchin_core')
     implementation project(':touchin_components')
     implementation project(':touchin_templates')
+    implementation project(':touchin_offlinecities')
 }
