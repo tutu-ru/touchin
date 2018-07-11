@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.gradle/
+.idea/
+app/build/
+build/
+local.properties
+touchin_components/build/
+touchin_core/build/
+touchin_offlinecities/build/
+touchin_templates/build/
